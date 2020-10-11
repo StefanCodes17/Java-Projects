@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Universe
+comment0.text=\r\n\ @author\ \ \ \ \ \ Stefan\ Kolev\ sk893q@bhsec.bard.edu\r\n\ @version\ \ \ \ \ 2\ \ \ \ \ \ \ \ \ (current\ version\ number\ of\ program)\r\n\ @since\ \ \ \ \ \ \ 1.2\ \ \ \ \ \ \ \ \ \ (the\ version\ of\ the\ package\ this\ class\ was\ first\ added\ to)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=endT_init\ deltaT_init\ universeFile_init
+comment2.target=Universe(double,\ double,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Planet\r\n\ @param\ endT_init\ initial\ end\ time\ stamp\r\n\ @param\ deltaT_init\ initial\ change\ in\ time\r\n\ @param\ universeFile_init\ initial\ text\ file\r\n
+comment3.params=
+comment3.target=void\ readUniverse()
+comment3.text=\r\n\ reads\ the\ text\ file,\ defines\ the\ numeber\ of\ bodies,\ the\ radius\ and\ fills\ in\ the\ planet\ array\r\n
+comment4.params=
+comment4.target=void\ displayUniverse()
+comment4.text=\r\n\ displays\ universe\ and\ planet\ array\ of\ planet\ objects\ and\ sets\ canvas\r\n
+comment5.params=
+comment5.target=void\ updatePhysics()
+comment5.text=\r\n\ updates\ positions\ of\ planets\ and\ calculates\ sum\ of\ forces\ that\ act\ on\ each\ planet\ and\ moves\ thems\r\n
+comment6.params=
+comment6.target=void\ runSimulation()
+comment6.text=\r\n\ sets\ canvas\ and\ calls\ other\ methods\ above\r\n\ @see\ updatePhysics()\r\n\ @see\ displayUniverse()\r\n
+numComments=7

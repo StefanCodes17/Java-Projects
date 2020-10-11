@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Planet
+comment0.text=\r\n\ @author\ \ \ \ \ \ Stefan\ Kolev\ sk893q@bhsec.bard.edu\r\n\ @version\ \ \ \ \ 2\ \ \ \ \ \ \ \ \ (current\ version\ number\ of\ program)\r\n\ @since\ \ \ \ \ \ \ 1.2\ \ \ \ \ \ \ \ \ \ (the\ version\ of\ the\ package\ this\ class\ was\ first\ added\ to)\r\n
+comment1.params=px\ py\ vx\ vy\ m\ file
+comment1.target=Planet(double,\ double,\ double,\ double,\ double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Planet\r\n\ @param\ px\ initial\ x\ position\ of\ the\ planet\r\n\ @param\ py\ initial\ y\ position\ of\ the\ planet\ \r\n\ @param\ vx\ initial\ x-component\ of\ the\ velocity\ \r\n\ @param\ vy\ initial\ y-component\ of\ the\ planet's\ velocity\r\n\ @param\ mass\ planet's\ mass\ \r\n\ @param\ fileName\ file\ that\ stores\ an\ image\ of\ th\ eplanet\ \r\n
+comment2.params=
+comment2.target=void\ display()
+comment2.text=\r\n\ displays\ the\ planets\ using\ the\ x\ and\ y\ positions\ and\ filename\r\n\ @see\ StdDraw\r\n
+comment3.params=fx\ fy\ dt
+comment3.target=void\ updatePosition(double,\ double,\ double)
+comment3.text=\r\n\ updates\ the\ respective\ attributes\ of\ the\ planet\r\n\ @param\ fx\ horizontal\ (x-axis)\ force\ acting\ on\ the\ planet\ \r\n\ @param\ fy\ vertical\ (y-axis)\ force\ acting\ on\ the\ planet\r\n\ @param\ dt\ the\ change\ of\ time,\ the\ time\ step\r\n
+comment4.params=other
+comment4.target=double\ calculateFX(Planet)
+comment4.text=\r\n\ Calculates\ the\ force\ in\ the\ x\ direction\r\n\ @param\ other\ the\ other\ planet\ that\ is\ acting\ on\ the\ present\ planet\r\n\ @return\ fx\ \ \ the\ force\ in\ the\ x\ direction\ by\ the\ other\ planet\r\n
+comment5.params=other
+comment5.target=double\ calculateFY(Planet)
+comment5.text=\r\n\ Calculates\ the\ force\ in\ the\ y\ direction\ \r\n\ @param\ other\ the\ other\ planet\ that\ is\ acting\ on\ the\ present\ planet\r\n\ @return\ fy\ \ \ the\ force\ in\ the\ y\ direction\ by\ the\ other\ planet\r\n
+numComments=6

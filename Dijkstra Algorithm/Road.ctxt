@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Road
+comment1.params=city1\ city2\ distance\ name
+comment1.target=Road(City,\ City,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getDistance()
+comment2.text=\r\n\ Accessor\ method\ for\ the\ length\ of\ the\ road\r\n\ \r\n\ @return\ the\ length\ of\ the\ road\ in\ miles\r\n
+comment3.params=c
+comment3.target=City\ getNeighborCity(City)
+comment3.text=\r\n\ A\ road\ connects\ two\ cities.\ This\ method\ has\ as\ an\ input\ one\ of\ \r\n\ the\ two\ cities.\ It\ returns\ the\ OTHER\ city\ that\ the\ road\ connects.\r\n\ \r\n\ @param\ c\ One\ of\ the\ two\ cities\ connected\ by\ the\ road\r\n\ @return\ The\ other\ city\ connected\ by\ the\ road\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
